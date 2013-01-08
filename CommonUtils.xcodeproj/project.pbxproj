@@ -18,6 +18,7 @@
 		3A795A20169BF28B009CFF67 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A795A1F169BF28B009CFF67 /* Default@2x.png */; };
 		3A795A22169BF28B009CFF67 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A795A21169BF28B009CFF67 /* Default-568h@2x.png */; };
 		3A795A25169BF28B009CFF67 /* CommonUtils.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A795A23169BF28B009CFF67 /* CommonUtils.xcdatamodeld */; };
+		3A795A2E169BF2D6009CFF67 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A795A2D169BF2D6009CFF67 /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		3A795A1F169BF28B009CFF67 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3A795A21169BF28B009CFF67 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3A795A24169BF28B009CFF67 /* CommonUtils.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CommonUtils.xcdatamodel; sourceTree = "<group>"; };
+		3A795A2C169BF2D6009CFF67 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		3A795A2D169BF2D6009CFF67 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		3A795A11169BF28B009CFF67 /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
+				3A795A2B169BF298009CFF67 /* Utils */,
 				3A795A1A169BF28B009CFF67 /* AppDelegate.h */,
 				3A795A1B169BF28B009CFF67 /* AppDelegate.m */,
 				3A795A23169BF28B009CFF67 /* CommonUtils.xcdatamodeld */,
@@ -104,6 +108,15 @@
 				3A795A21169BF28B009CFF67 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A795A2B169BF298009CFF67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3A795A2C169BF2D6009CFF67 /* Utils.h */,
+				3A795A2D169BF2D6009CFF67 /* Utils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +187,7 @@
 				3A795A18169BF28B009CFF67 /* main.m in Sources */,
 				3A795A1C169BF28B009CFF67 /* AppDelegate.m in Sources */,
 				3A795A25169BF28B009CFF67 /* CommonUtils.xcdatamodeld in Sources */,
+				3A795A2E169BF2D6009CFF67 /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

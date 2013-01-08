@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  CommonUtils
 //
-//  Created by Kheam on 8/01/13.
+
 //  Copyright (c) 2013 Noot. All rights reserved.
 //
 
